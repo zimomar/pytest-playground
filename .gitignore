@@ -1,0 +1,30 @@
+# Ignore l'environnement virtuel
+venv/
+
+# Ignore les fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore les fichiers de logs et temporaires
+*.log
+*.tmp
+
+# Ignore les fichiers spécifiques à IntelliJ IDEA (PyCharm)
+.idea/
+*.iml
+
+# Ignore les dépendances installées localement
+.env
+
+# Ignore les fichiers de tests générés
+.junit/
+*.xml
+coverage/
+*.cover
+*.coverage
+
+# Ignore les fichiers de configuration utilisateur
+.vscode/
+*.swp
+*.swo
